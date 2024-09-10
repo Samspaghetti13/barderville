@@ -1,0 +1,11 @@
+venv/
+*.log
+*.tmp
+*.bak
+
+.DS_Store
+.env
+.mp4
+.zip
+.tar
+.gz
