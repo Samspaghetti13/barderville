@@ -14,6 +14,7 @@ from dotenv import load_dotenv
 import cachetools
 from datetime import datetime, timedelta
 import os
+from dotenv import load_dotenv
 
 app = Flask(__name__)
 CORS(app)
