@@ -6,8 +6,11 @@ const nextConfig = {
                 'node_modules/@swc/core-linux-x64-gnu',
                 'node_modules/@swc/core-linux-x64-musl',
                 'node_modules/@esbuild/linux-x64',
+                
 
             ],
+            "/*": ["./public/content/**/*.jpg"],
+            "/**/*": ["./public/content/**/*.jpg"],
         },
     },
 };
