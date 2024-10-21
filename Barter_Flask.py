@@ -98,6 +98,7 @@ class Trader:
                 }
             },
         }
+        
         self.unique_items = {
                 "helicopter.jpg": "helicopter",
                 "sports Car.jpg": "sports Car",
