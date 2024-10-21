@@ -4,7 +4,7 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
-    "public": "out",
+    "public": ".next",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -16,6 +16,10 @@
         "function": "nextApp"
       }
     ]
+  },
+  "functions": {
+    "source": ".",
+    "runtime": "nodejs16"
   },
   "emulators": {
     "auth": {
